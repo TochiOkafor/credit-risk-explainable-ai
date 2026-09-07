@@ -1,3 +1,10 @@
+# ── Home Credit dataset (never commit — ~700MB, Kaggle terms) ──
+*.csv
+*.zip
+data/
+input/
+kaggle/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

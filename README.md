@@ -234,7 +234,7 @@ The age gradient is steeper than gender (four-fifths ratio 0.25), but age is not
 
 ## 📓 View Notebook
 
-[Click here to view the full notebook](https://nbviewer.org/github/TochiOkafor/credit-risk-explainable-ai/blob/main/notebooks/credit-risk-analysis.ipynb)
+[Click here to view the full notebook] https://nbviewer.org/github/TochiOkafor/credit-risk-explainable-ai/blob/main/notebooks/credit-risk-analysis.ipynb
 
 ---
 

@@ -241,7 +241,7 @@ The age gradient is steeper than gender (four-fifths ratio 0.25), but age is not
 ## How to Run
 
 1. Download the Home Credit Default Risk dataset from https://www.kaggle.com/competitions/home-credit-default-risk/data (free with a Kaggle account)
-2. Open `notebooks/credit_risk_analysis.ipynb` in [Kaggle Notebooks](https://www.kaggle.com/code) or [Google Colab](https://colab.research.google.com/)
+2. Open `notebooks/credit-risk-analysis.ipynb` in Kaggle Notebooks or Google Colab
 3. CPU is sufficient — no GPU required for tabular ML
 4. Add the competition dataset as input, then run all cells sequentially
 5. Model selection runs on the full feature set; the compliance retrain drops `CODE_GENDER` and regenerates the SHAP explanations and fairness metrics

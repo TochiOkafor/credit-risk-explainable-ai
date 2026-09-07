@@ -11,7 +11,7 @@ Built around honest evaluation: it benchmarks gradient boosting against a
 transparent baseline, converts model outputs into the legally-required decline
 reasons a lender must give, and audits those decisions for bias — then acts on
 the audit rather than just reporting it. Uses the same SHAP explainability
-backbone as my [sepsis early-warning project](https://github.com/TochiOkafor),
+backbone as my [sepsis-early-warning-lstm project](https://github.com/TochiOkafor),
 applied to a fintech domain.
 
 ## Why This Matters

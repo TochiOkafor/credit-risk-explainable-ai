@@ -3,6 +3,10 @@
 Predicting loan default on 307,000 real applications, then turning each decision into the legally-required decline reasons a lender must provide — and auditing those decisions for bias. The original model listed an applicant's **gender as a reason to decline their loan**, an explanation that is unlawful to send under the UK Equality Act and the US Equal Credit Opportunity Act. This project catches that, removes it, and measures exactly what removal does and does not fix.
 
 *Built around honest evaluation: it benchmarks gradient boosting against a transparent baseline, converts model outputs into real adverse action notices, and runs a fairness audit that drives a concrete fix — cutting demographic disparity by 39% at a cost of 0.003 AUC.* 
+
+*Built around honest evaluation: it benchmarks deep learning against classical baselines, 
+reports calibration and proxy-feature problems most portfolio projects overlook, and 
+achieves a clinically meaningful 2.5-hour median warning lead time.*
 ---
 
 ## Why This Matters

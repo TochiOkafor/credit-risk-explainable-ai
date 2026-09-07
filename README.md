@@ -4,9 +4,6 @@ Predicting loan default on 307,000 real applications, then turning each decision
 
 *Built around honest evaluation: it benchmarks gradient boosting against a transparent baseline, converts model outputs into real adverse action notices, and runs a fairness audit that drives a concrete fix — cutting demographic disparity by 39% at a cost of 0.003 AUC.* 
 
-*Built around honest evaluation: it benchmarks deep learning against classical baselines, 
-reports calibration and proxy-feature problems most portfolio projects overlook, and 
-achieves a clinically meaningful 2.5-hour median warning lead time.*
 ---
 
 ## Why This Matters

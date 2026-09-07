@@ -2,8 +2,7 @@
 
 Predicting loan default on 307,000 real applications, then turning each decision into the legally-required decline reasons a lender must provide — and auditing those decisions for bias. The original model listed an applicant's **gender as a reason to decline their loan**, an explanation that is unlawful to send under the UK Equality Act and the US Equal Credit Opportunity Act. This project catches that, removes it, and measures exactly what removal does and does not fix.
 
-*Built around honest evaluation: it benchmarks gradient boosting against a transparent baseline, converts model outputs into real adverse action notices, and runs a fairness audit that drives a concrete fix — cutting demographic disparity by 39% at a cost of 0.003 AUC. Same SHAP explainability backbone as my [sepsis-early-warning-lstm project](https://github.com/TochiOkafor), applied to fintech.*
-
+*Built around honest evaluation: it benchmarks gradient boosting against a transparent baseline, converts model outputs into real adverse action notices, and runs a fairness audit that drives a concrete fix — cutting demographic disparity by 39% at a cost of 0.003 AUC.* 
 ---
 
 ## Why This Matters

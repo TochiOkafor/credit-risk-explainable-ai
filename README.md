@@ -242,9 +242,4 @@ The age gradient is steeper than gender (four-fifths ratio 0.25), but age is not
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
----
 
-## Author
-
-**Tochukwu (Tee) Okafor** — [GitHub](https://github.com/TochiOkafor) · [LinkedIn](https://linkedin.com/in/contacttochukwuedith)
-MRes Artificial Intelligence, University of Wolverhampton

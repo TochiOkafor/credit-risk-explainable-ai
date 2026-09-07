@@ -100,7 +100,7 @@ At a 0.5 threshold the champion catches about **two-thirds of true defaulters** 
 ### Global Feature Importance (SHAP)
 ![Feature Importance](images/feature_importance.png)
 
-The three external credit scores dominate, followed by loan and goods amounts. The dominance of `EXT_SOURCE` features is exactly what the correlation analysis predicted — the model's core signal is creditworthiness, not demographics.
+The two strongest external credit scores lead, interleaved with loan and goods amounts, confirming the model's primary signal is creditworthiness. Note that CODE_GENDER appears as the sixth most important feature, a protected attribute materially influencing predictions. This is precisely the problem the fairness evaluation identifies and removes.
 
 ### SHAP Summary — Feature Values vs Impact
 ![SHAP Summary](images/shap_summary_plot.png)

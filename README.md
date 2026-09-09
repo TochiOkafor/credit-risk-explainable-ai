@@ -1,6 +1,6 @@
 # 💳 Credit Risk Prediction with Explainable AI
 
-Predicting loan default on 307,000 real applications, then turning each decision into the legally-required decline reasons a lender must provide — and auditing those decisions for bias. The original model listed an applicant's **gender as a reason to decline their loan**, an explanation that is unlawful to send under the UK Equality Act and the US Equal Credit Opportunity Act. This project catches that, removes it, and measures exactly what removal does and does not fix.
+Predicting loan default on 307,000 real applications, then turning each decision into the legally-required decline reasons a lender must provide — and auditing those decisions for bias. The original model listed an applicant's **gender as a reason to decline their loan**, a decision that is unlawful under the UK Equality Act 2010 (direct sex discrimination in the provision of services) and the US Equal Credit Opportunity Act (sex is a prohibited basis for any credit decision). This project catches that, removes it, and measures exactly what removal does and does not fix.
 
 *Built around honest evaluation: it benchmarks gradient boosting against a transparent baseline, converts model outputs into real adverse action notices, and runs a fairness audit that drives a concrete fix — cutting demographic disparity by 39% at a cost of 0.003 AUC.*
 
@@ -8,7 +8,7 @@ Predicting loan default on 307,000 real applications, then turning each decision
 
 ## Why This Matters
 
-Credit scoring is one of the most heavily regulated applications of machine learning. In the UK, the **FCA** requires that credit decisions be explainable to consumers, and the **Equality Act 2010** prohibits using sex as a direct input to a lending decision. In the US, the **Equal Credit Opportunity Act** requires lenders to give applicants specific reasons for a decline, and fair-lending law prohibits both direct discrimination and disparate impact via proxies.
+Credit scoring is one of the most heavily regulated applications of machine learning. In the UK, the **FCA** expects credit decisioning to be explainable and auditable, a model that can't justify its decisions is a problem under both CONC 5.2A (creditworthiness) and the Consumer Duty, and the **Equality Act 2010** prohibits using sex as a direct input to a lending decision. In the US, the **Equal Credit Opportunity Act** requires lenders to give applicants specific reasons for a decline, and fair-lending law prohibits both direct discrimination and disparate impact via proxies.
 
 A model that is marginally more accurate but uses a protected characteristic is not a better model — it is an illegal one. Every UK fintech and traditional bank runs a credit-risk function under exactly these constraints, which is why explainability and fairness are treated here as the design brief rather than a closing paragraph.
 
